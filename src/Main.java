@@ -7,27 +7,22 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-		ArrayList<String>estudiantes = new ArrayList<String>();
 		
 		System.out.println("Introduzca los datos:");
 		System.out.println("Nombre:");
-		String nombre=sc.nextLine();
-		estudiantes.add(nombre);
+		String nombre=sc.nextLine();		
 		System.out.println("Apellidos:");
-		String apellidos=sc.nextLine();
-		estudiantes.add(apellidos);
+		String apellidos=sc.nextLine();		
 		System.out.println("Fecha de nacimeinto:");
-		String fecha=sc.nextLine();
-		estudiantes.add(fecha);
+		String fecha=sc.nextLine();		
 		System.out.println("DNI:");
-		String dni=sc.nextLine();
-		estudiantes.add(dni);
+		String dni=sc.nextLine();	
 		System.out.println("Estudios previos:");
 		String estudios=sc.nextLine();
-		estudiantes.add(estudios);
 		System.out.println("Teléfono:");
 		String telefono=sc.nextLine();
-		estudiantes.add(telefono);
+		
+		Estudiante estudiante= new Estudiante(nombre,apellidos,fecha,dni,estudios,telefono);
 		
 	}
 
