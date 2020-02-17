@@ -24,6 +24,8 @@ public class Main {
 		
 		Estudiante estudiante= new Estudiante(nombre,apellidos,fecha,dni,estudios,telefono);
 		
+		System.out.println(estudiante.toString());
+		
 	}
 
 }
